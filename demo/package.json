@@ -1,0 +1,20 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "truffle test --network test",
+        "coverage": "solidity-coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "solidity-coverage": "0.6.0-beta.0",
+        "truffle": "5.0.0"
+    }
+}
